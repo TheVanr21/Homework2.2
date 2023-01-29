@@ -1,21 +1,11 @@
 {
   "type": "object",
   "required": [
-    "args",
-    "data",
-    "files",
-    "form",
-    "headers",
-    "json",
-    "url"
+    "data"
   ],
   "properties": {
     "data": {
-      "type": "boolean"
-    },
-    "url": {
-      "type": "string",
-      "format": "uri"
+      "type": "string"
     }
   }
 }
