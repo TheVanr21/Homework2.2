@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "default": {},
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "args",
+      "data",
+      "files",
+      "form",
+      "headers",
+      "json",
+      "url"
+    ],
+    "properties": {
+      "data": {
+        "type": "string"
+      },
+      "url": {
+        "type": "string",
+        "format": "iri"
+      }
+    }
+  }
+}
