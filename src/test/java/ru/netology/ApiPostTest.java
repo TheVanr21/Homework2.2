@@ -26,7 +26,7 @@ public class ApiPostTest {
                 .then()
                 .statusCode(200)
                 .contentType(ContentType.JSON)
-                .body("data", equalTo("что-то другое"))
+                .body("data", equalTo(data))
         ;
     }
 
